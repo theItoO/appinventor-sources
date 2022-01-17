@@ -129,6 +129,11 @@ body {
   border-right: 1px solid #d2d2d2;
   margin: 4px;
   box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.065);
+  padding: 1%;
+  overflow: auto;
+  overflow: auto;
+  max-height: 100vh;
+  scrollbar-width: thin;
 }
 
 .ode-Box-header {
@@ -1066,11 +1071,11 @@ select.ode-PropertyEditor[disabled] {
 
 .ode-SimpleMockContainer {
   background-color: transparent;
-  border: 2px solid black;
+  border: .5px solid black;
 }
 
 .ode-SimpleMockContainer-selected {
-  border: 2px solid #8fc202;
+  border: .5px dashed #000;
 }
 
 .ode-SimpleMockComponent {
@@ -1084,7 +1089,7 @@ select.ode-PropertyEditor[disabled] {
 }
 
 .ode-SimpleMockComponent-selected {
-  border: 2px solid #8fc202;
+  border: .5px dashed #000;
 }
 
 .ode-SimpleMockMapFeature-selected svg * {
@@ -1446,7 +1451,7 @@ path.ode-SimpleMockMapFeature-selected {
 }
 
 .ode-DialogBox .dialogContent {
-  padding: 5px 10px;
+  padding: 20px;
 }
 
 .ode-DialogBox .dialogContent td {
