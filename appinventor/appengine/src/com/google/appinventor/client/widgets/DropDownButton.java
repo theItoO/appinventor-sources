@@ -121,7 +121,7 @@ public class DropDownButton extends TextButton {
         menu.addSeparator();
       }
     }
-
+    
     addClickHandler(new ClickHandler() {
       @Override
       public void onClick(ClickEvent event) {

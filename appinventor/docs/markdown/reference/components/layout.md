@@ -10,6 +10,7 @@ Table of Contents:
 
 * [HorizontalArrangement](#HorizontalArrangement)
 * [HorizontalScrollArrangement](#HorizontalScrollArrangement)
+* [Space](#Space)
 * [TableArrangement](#TableArrangement)
 * [VerticalArrangement](#VerticalArrangement)
 * [VerticalScrollArrangement](#VerticalScrollArrangement)
@@ -156,6 +157,64 @@ None
 
 
 ### Methods  {#HorizontalScrollArrangement-Methods}
+
+{:.methods}
+None
+
+
+## Space  {#Space}
+
+Component for Space
+
+
+
+### Properties  {#Space-Properties}
+
+{:.properties}
+
+{:id="Space.AlignHorizontal" .number} *AlignHorizontal*
+: A number that encodes how contents of the `Space` are aligned horizontally. The choices
+ are: `1` = left aligned, `2` = right aligned, `3` = horizontally centered. Alignment has no
+ effect if the `Space`'s [`Width`](#Space.Width) is `Automatic`.
+
+{:id="Space.AlignVertical" .number} *AlignVertical*
+: A number that encodes how the contents of the `Space` are aligned vertically. The choices
+ are: `1` = aligned at the top, `2` = vertically centered, `3` = aligned at the bottom.
+ Alignment has no effect if the `Space`'s [`Height`](#Space.Height) is `Automatic`.
+
+{:id="Space.BackgroundColor" .color} *BackgroundColor*
+: Specifies the background color of the Space as an alpha-red-green-blue
+ integer.  If an Image has been set, the color change will not be visible
+ until the Image is removed.
+
+{:id="Space.Height" .number .bo} *Height*
+: Specifies the `Space`'s vertical height, measured in pixels.
+
+{:id="Space.HeightPercent" .number .wo .bo} *HeightPercent*
+: Specifies the `Space`'s vertical height as a percentage
+ of the [`Screen`'s `Height`](userinterface.html#Screen.Height).
+
+{:id="Space.Image" .text} *Image*
+: Specifies the path of the background image of the `Space`.
+
+{:id="Space.Visible" .boolean} *Visible*
+: Specifies whether the `Space` should be visible on the screen.  Value is `true`{:.logic.block}
+ if the `Space` is showing and `false`{:.logic.block} if hidden.
+
+{:id="Space.Width" .number .bo} *Width*
+: Specifies the horizontal width of the `Space`, measured in pixels.
+
+{:id="Space.WidthPercent" .number .wo .bo} *WidthPercent*
+: Specifies the horizontal width of the `Space` as a percentage
+ of the [`Screen`'s `Width`](userinterface.html#Screen.Width).
+
+### Events  {#Space-Events}
+
+{:.events}
+None
+
+
+### Methods  {#Space-Methods}
 
 {:.methods}
 None

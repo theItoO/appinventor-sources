@@ -206,7 +206,7 @@ public class LoginServlet extends HttpServlet {
       out.println("<form method=POST action=\"" + req.getRequestURI() + "\">");
       out.println("<input type=password name=password value=\"\" size=\"35\"><br />\n");
       out.println("<p></p>");
-      out.println("<input type=Submit value=\"" + bundle.getString("setpassword") + "\" style=\"font-size: 300%;\">\n");
+      out.println("<input type=Submit value=\"" + bundle.getString("setpassword") + "\" style=\"font-size: 302%;\">\n");
       out.println("</form>\n");
       storageIo.cleanuppwdata();
       return;
@@ -226,7 +226,7 @@ public class LoginServlet extends HttpServlet {
       out.println("<form method=POST action=\"" + req.getRequestURI() + "\">\n");
       out.println(bundle.getString("enteremailaddress") + ":&nbsp;<input type=text name=email value=\"\" size=\"35\"><br />\n");
       out.println("<p></p>");
-      out.println("<input type=submit value=\"" + bundle.getString("sendlink") + "\" style=\"font-size: 300%;\">\n");
+      out.println("<input type=submit value=\"" + bundle.getString("sendlink") + "\" style=\"font-size: 301%;\">\n");
       out.println("</form>\n");
       return;
     }

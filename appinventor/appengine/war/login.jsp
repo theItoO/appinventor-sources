@@ -104,7 +104,6 @@ out.println("<center><font color=red><b>" + error + "</b></font></center><br/>")
 <%    } %>
 <a href="http://www.appinventor.mit.edu" target="_blank"><img class="img-scale"
                 src="/static/images/login-app-inventor.jpg" width="50" height="30" title="MIT App Inventor"></a></center>
-<p></p>
 
 <p style="text-align: center; clear:both;"><a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/"
                                               target="_blank"><img alt="Creative Commons License" src="/static/images/cc3.png"></a> <br>

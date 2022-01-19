@@ -441,7 +441,6 @@ public final class Notifier extends AndroidNonvisibleComponent implements Compon
       }
     });
   }
-
   /**
    * Specifies the length of time that the alert is shown -- either "short" or "long".
    *

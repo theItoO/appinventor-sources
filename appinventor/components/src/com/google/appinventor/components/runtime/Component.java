@@ -122,6 +122,8 @@ public interface Component {
   static final int TOAST_LENGTH_SHORT = 0;
   static final int TOAST_LENGTH_LONG = 1;
 
+  static final String TOAST_CLASSIC = "True";
+
   /*
    * Screen direction constants.
    * Observe that opposite directions have the same magnitude but opposite signs.

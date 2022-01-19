@@ -89,7 +89,7 @@ public abstract class ColorChoicePropertyEditor extends PropertyEditor {
 
     static String getHtmlDescription(String rgbString, String name) {
       return "<span style=\"background:#" + rgbString + "; border:1px solid black; " +
-          "width:1em; height:1em; display:inline-block;\">&nbsp;&nbsp;&nbsp;</span>&nbsp;&nbsp;&nbsp;" + name;
+          "width:1.2em; height:1em; display:inline-block;\">&nbsp;&nbsp;&nbsp;</span>&nbsp;&nbsp;&nbsp;" + name;
     }
   }
 
@@ -311,7 +311,7 @@ public abstract class ColorChoicePropertyEditor extends PropertyEditor {
    */
   private static String makeCustomHTML(double a, int r, int g, int b) {
     return "<span style=\"background:rgba(" + r + "," + g + "," + b + "," + a + "); border:1px solid black; " +
-        "width:1em; height:1em; display:inline-block;\">&nbsp;&nbsp;&nbsp;</span>&nbsp;&nbsp;&nbsp;" + MESSAGES.customEllipsis();
+        "width:1.2em; height:1em; display:inline-block;\">&nbsp;&nbsp;&nbsp;</span>&nbsp;&nbsp;&nbsp;" + MESSAGES.customEllipsis();
   }
 
   /**
