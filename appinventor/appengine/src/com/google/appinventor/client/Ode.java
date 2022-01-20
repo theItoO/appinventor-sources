@@ -1090,6 +1090,7 @@ public class Ode implements EntryPoint {
     mainPanel.add(overDeckPanel, DockPanel.CENTER);
     mainPanel.setCellHeight(overDeckPanel, "100%");
     mainPanel.setCellWidth(overDeckPanel, "100%");
+    mainPanel.setStyleName("tbl");
 
 //    mainPanel.add(switchToDesignerButton, DockPanel.WEST);
 //    mainPanel.add(switchToBlocksButton, DockPanel.EAST);

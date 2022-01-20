@@ -57,7 +57,7 @@ public class TopPanel extends Composite {
   private static final String WIDGET_NAME_LANGUAGE = "Language";
 
   private static final String SIGNOUT_URL = "/ode/_logout";
-  private static final String LOGO_IMAGE_URL = "/static/images/codi_long.png";
+  private static final String LOGO_IMAGE_URL = "/static/images/codi_long.svg";
 
   private static final String WINDOW_OPEN_FEATURES = "menubar=yes,location=yes,resizable=yes,scrollbars=yes,status=yes";
   private static final String WINDOW_OPEN_LOCATION = "_ai2";
@@ -229,7 +229,7 @@ public class TopPanel extends Composite {
     // to get around browsers that agressively cache the image! This
     // same trick is used in StorageUtil.getFilePath().
     Image logo = new Image(LOGO_IMAGE_URL + "?t=" + System.currentTimeMillis());
-    logo.setSize("180px", "40px");
+    logo.setSize("150px", "35px");
     logo.setStyleName("ode-Logo");
     String logoUrl = ode.getSystemConfig().getLogoUrl();
     if (!Strings.isNullOrEmpty(logoUrl)) {
